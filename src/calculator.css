@@ -1,0 +1,46 @@
+.page {
+  --frame: #10131a;
+  --screen: #fff;
+  --ink: #1a1a1a;
+  --key: #242733;
+  --accent: #0099ff;
+
+  /* min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f2f2f2;
+  font-family: Roboto, "Segoe UI", Arial, sans-serif; */
+}
+
+.page[data-theme="dark"] {
+  --screen: #1b1e27;
+  --ink: #f1f1f1;
+  --key: #3a3f52;
+
+}
+/* 
+.calculator { width: 280px; background: var(--frame); padding: 10px; border-radius: 8px; }
+.bar { background: var(--accent); border-radius: 14px; display: flex; justify-content: center; gap: 8px; }
+.display { background: var(--screen); color: var(--ink); height: 88px; flex column, end-aligned }
+/* .keys { background: var(--screen); display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; padding: 5px; } */
+
+/* button { height: 50px; border: 0;  */
+    /* border-radius: 5px;  */
+    /* background: var(--key);  */
+    /* color: #fff;  */
+    /* font-size: 17px;  */
+    /* cursor: pointer; } */
+/* button.accent { background: var(--accent); color: #1a1a1a; } */
+
+/* .wide { grid-column: span 2; } */
+
+/* .display { display: flex;  */
+    /* flex-direction: column;  */
+    /* justify-content: flex-end;  */
+    /* padding: 10px; font-size: 24px;  */
+    /* text-align: right; } */
+
+/* .expression { font-size: 20px; color: var(--ink);text-align: right; } */
+
+/* .value { font-size: 30px; color: var(--ink); text-align: right; } */ 
